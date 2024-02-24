@@ -17,20 +17,6 @@ on:
         required: true
       comment_id:
         required: true
-# jobs:
-#   caller-identity:
-#     name: Check caller identity
-#     permissions:
-#       contents: read
-#       id-token: write
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Configure AWS credentials
-#         uses: aws-actions/configure-aws-credentials@v2
-#         with:
-#           aws-region: eu-west-1
-#           role-to-assume: arn:aws:iam::851725175069:role/github
-#       - run: aws sts get-caller-identity
 
 jobs:
   build:
